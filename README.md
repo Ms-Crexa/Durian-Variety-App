@@ -37,13 +37,3 @@ Before you begin, make sure you have the following installed:
      2. Download the `GoogleService-Info.plist` file and place it in your Flutter project under `ios/Runner/`.
      3. Update the `ios/Runner/Info.plist` file to configure Firebase as specified in the Firebase setup documentation.
 
-3. **Install Firebase Flutter Plugins**:
-
-   Add these dependencies to your `pubspec.yaml` to install the necessary Firebase plugins:
-
-   ```yaml
-   dependencies:
-     firebase_core: ^latest_version
-     firebase_auth: ^latest_version
-     cloud_firestore: ^latest_version
-     firebase_storage: ^latest_version
